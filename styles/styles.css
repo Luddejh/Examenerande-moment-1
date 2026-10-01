@@ -1,0 +1,211 @@
+* {
+  margin: 0px;  
+}
+
+:root {
+ --logo-height: 80px 
+}
+
+navbar {
+ display: flex;
+ flex-direction: row;   
+ gap: 10px;
+ background-color: rgb(3, 3, 77);
+ color: rgba(255, 255, 255, 0.34);
+}
+
+.header-1 {
+ background-image: url("/images/zoo.jpg");
+ background-repeat: repeat;
+ height: 400px;
+ width: 100%;
+ margin: 0px;
+ padding: 0px;
+}
+
+.info {
+ display: flex;
+ flex-direction: row;   
+}
+
+.open {
+ background-color: darkgoldenrod;   
+ width: 150px;
+ height: 100px;
+ padding: 20px;
+ position: relative;
+ top: 25px;
+ left: 10px;
+}
+
+.title {
+ display: flex;  
+ position: relative;
+ top: 10px;
+ left: 10px;
+ padding-left: 10px;  
+ width: 200px;
+ height: 70px;
+ align-items: center;
+ align-self: center;
+ color: rgba(255, 255, 255, 0.34);
+ background-color: rgb(3, 3, 77);
+}
+
+.header-2 {
+ height: 200px;   
+ background-color: darkgoldenrod;   
+}
+
+.header-container {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;  
+}
+
+.free-wifi {
+ display: flex;
+ flex-direction: column;   
+ width: 350px;
+ gap: 10px;
+ font-size: 7px;
+ justify-content: center;
+ text-align: center;
+}
+
+.resturants {
+ display: flex;
+ flex-direction: column;   
+ width: 350px;
+ gap: 10px;
+ font-size: 7px;
+ justify-content: center;
+ text-align: center;  
+ color: black;
+}
+
+.tent-container {
+ display: flex;
+ flex-direction: row;   
+}
+
+.wifi {
+  align-self: center;
+  width: 250px;
+  height: 90px;  
+}
+
+.eat {
+  width: 50px;  
+  align-items: center;
+  align-self: center;
+}
+
+.tent {
+  width: 50px;   
+}
+
+.nav-text {
+ display: flex;
+ flex-direction: row;   
+ justify-content: center;
+ gap: 10px;
+ margin: 20px;
+ margin-left: 40px;
+}
+
+.camping {
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  font-size: 7px;
+}
+
+.things-to-do {
+ background-color: white;   
+}
+
+.playpark, .resturant, .animals {
+ color: grey; 
+ margin-left: 20px;  
+}
+
+.resturant-lorem, .animals-lorem, .playpark-lorem{
+    border-left: 5px solid orange;  
+    margin: 20px;
+    padding-left: 5px;
+    gap: 10px;
+}
+
+.things-to-do-title {
+  margin-left: 80px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.header-3 {
+ background-color: yellow;  
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+}
+
+.chiken {
+ height: 90px;
+ margin-top: 30px; 
+}
+
+.cat {
+ height: var(--logo-height);
+ width: 80px; 
+}
+
+.dogLog {
+ width: 80px; 
+ height: var(--logo-height); 
+}
+
+.parrot {
+ width: 80px; 
+ height: var(--logo-height); 
+} 
+
+
+.header-4 {
+ display: flex;
+ flex-direction: row;
+ justify-content: center; 
+ background-color: darkgoldenrod;
+}
+
+.dogTable, .catTable, .chickenTable, .parrotTable {
+ height: 20px; 
+}
+
+.table-container {
+ display: flex; 
+ gap: 100px;
+ margin-top: 30px;
+}
+
+.animals-container {
+ display: flex; 
+ flex-direction: row;
+ gap: 20px;
+}
+
+tr:nth-child(odd) {
+  background-color: gray;
+}
+
+.cat-container, .dog-container, .chicken-container, .parrot-container {
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ width: 110px;
+ margin: 50px;
+ height: 3f00px;
+}
