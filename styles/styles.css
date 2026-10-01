@@ -15,7 +15,7 @@ navbar {
 }
 
 .header-1 {
- background-image: url("/images/zoo.jpg");
+ background-image: url("../images/zoo.jpg");
  background-repeat: repeat;
  height: 400px;
  width: 100%;
